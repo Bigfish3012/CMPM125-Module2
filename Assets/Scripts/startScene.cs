@@ -7,4 +7,8 @@ public class startScene : MonoBehaviour
     {
         SceneManager.LoadScene("cat");
     }
+    public void exitGame()
+    {
+        Application.Quit();
+    }
 }
